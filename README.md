@@ -3,7 +3,7 @@
 
 This project implements a Neural Network using TensorFlow's Keras library to classify handwritten digits from the MNIST dataset. The model architecture is simple yet effective, demonstrating the power of deep learning for image classification tasks.
 
-##🚀 Features
+🚀 Features
 Dataset: MNIST, a dataset of 60,000 training and 10,000 test images of handwritten digits (28x28 pixels, grayscale).
 Model Architecture:
 Input Layer: 784 neurons (28x28 flattened image input).
@@ -11,12 +11,12 @@ Hidden Layer: Fully connected layer with 5 neurons and ReLU activation.
 Output Layer: 10 neurons (digits 0–9) with softmax activation.
 Visualization: Model structure visualized using keras.utils.plot_model.
 
-##🛠️ Technologies Used
+🛠️ Technologies Used
 Python
 TensorFlow and Keras
 Colab Notebook
 
-##📂 File Structure
+📂 File Structure
 NeuralNetwrokModel.ipynb: The Colab Notebook containing:
 Data preprocessing steps.
 Model creation using Sequential and Functional API.
