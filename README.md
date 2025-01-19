@@ -3,7 +3,7 @@
 
 This project implements a Neural Network using TensorFlow's Keras library to classify handwritten digits from the MNIST dataset. The model architecture is simple yet effective, demonstrating the power of deep learning for image classification tasks.
 
-🚀 Features
+##🚀 Features
 Dataset: MNIST, a dataset of 60,000 training and 10,000 test images of handwritten digits (28x28 pixels, grayscale).
 Model Architecture:
 Input Layer: 784 neurons (28x28 flattened image input).
@@ -11,12 +11,12 @@ Hidden Layer: Fully connected layer with 5 neurons and ReLU activation.
 Output Layer: 10 neurons (digits 0–9) with softmax activation.
 Visualization: Model structure visualized using keras.utils.plot_model.
 
-🛠️ Technologies Used
+##🛠️ Technologies Used
 Python
 TensorFlow and Keras
 Colab Notebook
 
-📂 File Structure
+##📂 File Structure
 NeuralNetwrokModel.ipynb: The Colab Notebook containing:
 Data preprocessing steps.
 Model creation using Sequential and Functional API.
@@ -32,9 +32,9 @@ The MNIST dataset is a benchmark dataset consisting of 60,000 training images an
 - Visualization of training metrics and results.
 - Model evaluation using test data.
 
-📊 Results
+##📊 Results
 Accuracy: Achieved high accuracy (>90%) on the MNIST test dataset.
 Model Visualization: Displayed using plot_model.
 
 ## Conclusion
-The MNIST classification project demonstrates the effectiveness of deep learning, particularly Convolutional Neural Networks (CNNs), in solving image recognition tasks. By training the model on the MNIST dataset, the project achieved high accuracy in classifying handwritten digits. Additionally, the project emphasizes the importance of proper data preprocessing, model tuning, and evaluation for achieving robust performance in machine learning tasks. 
+The project successfully demonstrates the effectiveness of deep learning, particularly Convolutional Neural Networks (CNNs), in solving image recognition tasks. By training the model on the MNIST dataset, the project achieved high accuracy in classifying handwritten digits. This project provides a strong foundation for more complex architectures and real-world applications, such as multi-class image classification, object detection, and more. It also highlights the importance of experimenting with model parameters, layer configurations, and optimization techniques to enhance performance.
