@@ -32,7 +32,7 @@ The MNIST dataset is a benchmark dataset consisting of 60,000 training images an
 - Visualization of training metrics and results.
 - Model evaluation using test data.
 
-##📊 Results
+📊 Results
 Accuracy: Achieved high accuracy (>90%) on the MNIST test dataset.
 Model Visualization: Displayed using plot_model.
 
